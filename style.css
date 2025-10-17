@@ -220,34 +220,51 @@ a {
 
 .sideBySide img {
     height: auto;
-    width: 75%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-.sideBySideElement {
-    width: 50%;
-    padding: 20px;
+.sideBySideElementImage {
+    width: 35%;
+    padding: 15px;
     height: auto;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
 }
 
-@media screen and (max-width: 1000px) {
+.sideBySideElementText {
+    width: 65%;
+    padding: 15px;
+    height: auto;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 800px) {
     .sideBySide {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
     
-    .sideBySideElement {
-        width: 100%;
+    .sideBySideElementText, .sideBySideElementImage {
+        padding: 0px;
+    }
+
+    .sideBySideElementText, .sideBySideElementImage {
+        width: 90%;
     }
   
     .sideBySideElement img {
         display: block;
         margin-right: auto;
+    }
+
+    .supportTextSection {
+        width: 90%;
     }
 }
