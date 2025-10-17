@@ -144,6 +144,65 @@ a {
     width: 300px;
 }
 
+.supportSection {
+    background-color: #33246C;
+    /*width: 100%;*/
+    /*width: 100vw;*/
+}
+
+.supportSection p {
+    color: #FFFFFF;
+}
+
+.supportText {
+    padding: 3%;
+}
+
+.sideBySide {
+  margin-right: 3%;
+  margin-left: 3%;
+  width: 90%;
+  height: auto;
+  display: inline-flex;
+  padding: 20px;
+  justify-content: center;
+  margin-top: -1px;
+  align-items: center;
+}
+
+.sideBySide img {
+  height: 250px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sideBySideElement {
+  width: 45%;
+  height: auto;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .sideBySide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .sideBySideElement {
+    width: 100%;
+    margin-left: -2%;
+  }
+  
+  .sideBySideElement img {
+    display: block;
+    margin-right: auto;
+  }
+}
 .header {
     position: relative;
     text-align: center;
