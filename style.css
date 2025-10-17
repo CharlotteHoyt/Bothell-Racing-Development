@@ -216,6 +216,12 @@ a {
     display: block;
 }
 
+@media screen and (max-width: 1000px) {
+    .supportText {
+        width: 90%;
+    }
+}
+
 .supportLink {
     color: #FFFFFF;
     background-color: #D0B687;
