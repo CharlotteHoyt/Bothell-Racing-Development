@@ -31,6 +31,7 @@ a {
     position: fixed;
     overflow: hidden;
     top: 0;
+    margin: -5px;
     width: 100%;
     height: auto;
     display: flex;
@@ -97,7 +98,6 @@ a {
     padding: 20px 0px;
     text-align: center;
     bottom: 0;
-    position: fixed;
 }
 
 .footer p {
@@ -136,4 +136,9 @@ a {
     .copyrightMobile {
         display: block;
     }
+}
+
+.headerImage {
+    filter: grayscale(100%);
+    width: 300px;
 }
