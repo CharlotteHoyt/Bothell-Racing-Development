@@ -28,6 +28,10 @@ a {
     font-weight: 500;
 }
 
+img {
+    -webkit-user-drag: none;
+}
+
 .navBarContainer {
     position: fixed;
     overflow: hidden;
