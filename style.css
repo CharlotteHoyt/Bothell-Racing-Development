@@ -31,6 +31,7 @@ a {
     position: fixed;
     overflow: hidden;
     top: 0;
+    margin: -5px;
     width: 100%;
     height: auto;
     display: flex;
@@ -135,4 +136,9 @@ a {
     .copyrightMobile {
         display: block;
     }
+}
+
+.headerImage {
+    filter: grayscale(100%);
+    width: 300px;
 }
