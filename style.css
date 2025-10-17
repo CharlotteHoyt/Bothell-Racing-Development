@@ -271,10 +271,6 @@ a {
     margin-left: auto;
 }
 
-.calendarHeader {
-    text-align: center;
-}
-
 @media screen and (max-width: 800px) {
     .sideBySide {
         display: flex;
@@ -296,6 +292,29 @@ a {
     }
 
     .supportTextSection {
+        width: 90%;
+    }
+}
+
+.calendarHeader {
+    text-align: center;
+}
+
+.calendarSection {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.calendar {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: 4px solid #D0B687;
+}
+
+@media screen and (max-width: 800px) {
+    .calendar {
         width: 90%;
     }
 }
