@@ -85,6 +85,10 @@ a {
     display: block;
 }
 
+.section {
+    margin: 50px 00px;
+}
+
 .footer {
     background-color: #33246C;
     color: #FFFFFF;
