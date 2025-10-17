@@ -77,4 +77,58 @@ a {
 
 .content {
     margin-top: 125px;
+    height: 100%;
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.footer {
+    background-color: #33246C;
+    color: #FFFFFF;
+    width: 100%;
+    margin: 0px;
+    padding: 20px 0px;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+
+.footer p {
+    color: #FFFFFF;
+    font-family: "Inclusive Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+.footer i {
+    font-size: 30px; 
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+
+.footer i:hover {
+    font-size: 30px; 
+    color: #D0B687;
+}
+
+.copyright {
+    display: block;
+}
+
+.copyrightMobile {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .copyright {
+        display: none;
+    }
+
+    .copyrightMobile {
+        display: block;
+    }
 }
