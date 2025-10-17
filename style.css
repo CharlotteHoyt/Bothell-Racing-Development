@@ -199,6 +199,7 @@ a {
 
 .supportSection {
     background-color: #33246C;
+    margin: 20px 0px;
 }
 
 .supportSection p {
@@ -206,7 +207,34 @@ a {
 }
 
 .supportText {
-    padding: 3%;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+    .supportText {
+        width: 90%;
+    }
+}
+
+.supportLink {
+    color: #FFFFFF;
+    background-color: #D0B687;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Contrail One", sans-serif;
+    padding: 10px 20px;
+    float: right;
+    margin: 0px;
+}
+
+.supportLink:hover {
+    background-color: #D7C097;
 }
 
 .sideBySide {
