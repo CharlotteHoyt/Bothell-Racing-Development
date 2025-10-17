@@ -1,5 +1,6 @@
 body {
     color: #FFFFFF;
+    overflow-x: hidden;
 }
 
 * {
@@ -85,6 +86,14 @@ a {
     margin-right: auto;
     margin-left: auto;
     display: block;
+}
+
+.contentTextMaxWidth {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 0px;
+    margin: 0;
 }
 
 .section {
@@ -183,6 +192,12 @@ a {
     font-size: 1.15em;
 }
 
+@media screen and (max-width: 700px) {
+    .overlay h1 {
+        font-size: 60px;
+    }   
+}
+
 .supportSection {
     background-color: #33246C;
 }
@@ -196,7 +211,7 @@ a {
 }
 
 .sideBySide {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: inline-flex;
     justify-content: center;
@@ -229,7 +244,6 @@ a {
     
     .sideBySideElement {
         width: 100%;
-        margin-left: -2%;
     }
   
     .sideBySideElement img {
