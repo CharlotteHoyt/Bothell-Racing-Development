@@ -189,10 +189,13 @@ img {
     font-size: 1.4em;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     .overlay h1 {
         font-size: 60px;
     }   
+    .overlay {
+        width: 90%;
+    }
 }
 
 .supportSection {
