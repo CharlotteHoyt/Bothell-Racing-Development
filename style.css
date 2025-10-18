@@ -241,12 +241,23 @@ img {
     background-color: #D7C097;
 }
 
+.centered {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .sideBySide {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .sideBySide img {
@@ -268,11 +279,12 @@ img {
 
 .sideBySideElementText {
     width: 65%;
-    padding: 15px;
+    padding: 50px;
     height: auto;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
+    text-align: left;
 }
 
 @media screen and (max-width: 800px) {
