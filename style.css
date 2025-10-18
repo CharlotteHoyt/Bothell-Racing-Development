@@ -9,13 +9,12 @@ body {
 }
 
 h1 {
-    color: #D0B687;
+    color: #33246C;
     font-family: "Contrail One", sans-serif;
 }
 
 p {
-    /*color: #000000;*/
-    color: #33246C;
+    color: #555555;
     font-family: "Inclusive Sans", sans-serif;
     font-weight: 500;
     font-size: 1.15em;
@@ -301,7 +300,6 @@ img {
 }
 
 .sideBySideElementText p {
-    /*color: #333333;*/
     color: #555555;
 }
 
@@ -366,4 +364,12 @@ img {
     .calendar, .sponsorForm {
         width: 90%;
     }
+}
+
+.supportHeader {
+    margin-top: 100px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
