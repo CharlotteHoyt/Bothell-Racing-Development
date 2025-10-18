@@ -221,7 +221,8 @@ img {
 
 @media screen and (max-width: 1000px) {
     .supportText {
-        width: 90%;
+        width: 80%;
+        padding: 50px;
     }
 }
 
@@ -287,24 +288,26 @@ img {
     text-align: left;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .sideBySide {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
-    
-    .sideBySideElementText, .sideBySideElementImage {
-        padding: 0px;
-    }
 
     .sideBySideElementText, .sideBySideElementImage {
+        padding: 0px;
         width: 90%;
+    }
+
+    .sideBySideElementImage {
+        max-width: 500px;
     }
   
     .sideBySideElement img {
         display: block;
         margin-right: auto;
+        margin-left: auto;
     }
 
     .supportTextSection {
