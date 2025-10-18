@@ -343,18 +343,18 @@ img {
     }
 }
 
-.calendarHeader {
+.embedHeader {
     text-align: center;
     color: #33246C;
 }
 
-.calendarSection {
+.embedSection {
     margin-right: auto;
     margin-left: auto;
     display: block;
 }
 
-.calendar {
+.calendar, .sponsorForm {
     margin-right: auto;
     margin-left: auto;
     display: block;
