@@ -269,6 +269,10 @@ img {
     display: block;
 }
 
+.sideBySide img:hover {
+    filter: grayscale(0%);
+}
+
 .sideBySideElementImage {
     width: 35%;
     padding: 15px;
