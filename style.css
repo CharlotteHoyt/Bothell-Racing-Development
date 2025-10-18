@@ -64,7 +64,8 @@ img {
 .navBarLinks a {
     float: right;
     justify-content: center;
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
+    color: #33246C;
     background-color: #D0B687;
     border-radius: 10px;
     text-align: center;
@@ -246,7 +247,8 @@ img {
 }
 
 .supportLink {
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
+    color: #33246C;
     background-color: #D0B687;
     border-radius: 10px;
     text-align: center;
