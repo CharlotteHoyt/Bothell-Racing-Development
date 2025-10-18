@@ -31,6 +31,16 @@ img {
     -webkit-user-drag: none;
 }
 
+::selection {
+  background-color: #D0B687;
+  color: #FFFFFF;
+}
+
+::-moz-selection {
+  background-color: #D0B687;
+  color: #FFFFFF;
+}
+
 .navBarContainer {
     position: fixed;
     overflow: hidden;
