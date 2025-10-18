@@ -351,6 +351,9 @@ img {
 .embedHeader {
     text-align: center;
     color: #33246C;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 .embedSection {
