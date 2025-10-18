@@ -151,11 +151,6 @@ img {
     }
 }
 
-.headerImage {
-    filter: grayscale(100%);
-    width: 300px;
-}
-
 .header {
     position: relative;
     text-align: center;
@@ -267,10 +262,19 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    filter: grayscale(100%);
 }
 
 .sideBySide img:hover {
     filter: grayscale(0%);
+}
+
+.rightImage {
+    transform: rotate(3deg);
+}
+
+.leftImage {
+    transform: rotate(-3deg);
 }
 
 .sideBySideElementImage {
@@ -301,6 +305,13 @@ img {
     color: #555555;
 }
 
+.underline {
+    background-color: #D7C097;
+    width: 100%;
+    height: 4px;
+    margin: 5px 0px 20px 0px;
+}
+
 @media screen and (max-width: 1000px) {
     .sideBySide {
         display: flex;
@@ -321,6 +332,10 @@ img {
         display: block;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .rightImage, .leftImage {
+        transform: rotate(0deg);
     }
 
     .supportTextSection {
