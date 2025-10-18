@@ -46,6 +46,7 @@ img {
     overflow: hidden;
     top: 0;
     width: 100%;
+    max-width: 1500px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -95,6 +96,13 @@ img {
     margin-top: 70px;
     height: 100%;
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.maxWidth {
+    max-width: 1500px;
     margin-right: auto;
     margin-left: auto;
     display: block;
