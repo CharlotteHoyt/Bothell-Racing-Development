@@ -297,7 +297,8 @@ img {
 }
 
 .sideBySideElementText p {
-    color: #333333;
+    /*color: #333333;*/
+    color: #555555;
 }
 
 @media screen and (max-width: 1000px) {
