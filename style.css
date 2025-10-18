@@ -204,6 +204,10 @@ img {
     color: #FFFFFF;
 }
 
+.supportSection h1 {
+    color: #D0B687;
+}
+
 .supportText {
     color: #FFFFFF;
     padding: 20px;
@@ -360,8 +364,12 @@ img {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 1000px) {
     .calendar, .sponsorForm {
+        width: 90%;
+    }
+
+    .embedHeader {
         width: 90%;
     }
 }
