@@ -431,8 +431,9 @@ img {
     filter: grayscale(0%);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
     .galleryImage {
+        margin: 10px;
         width: 150px;
         height: auto;
     }
