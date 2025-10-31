@@ -21,10 +21,19 @@ p {
 }
 
 a {
-    color: #000000;
+    color: #33246C;
     font-family: "Inclusive Sans", sans-serif;
     font-size: 18px;
     font-weight: 500;
+}
+
+a:visited {
+    color: #33246C;
+}
+
+a:hover {
+    color: #33246C;
+    opacity: 0.8;
 }
 
 img {
