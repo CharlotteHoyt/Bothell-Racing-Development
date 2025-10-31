@@ -21,17 +21,21 @@ p {
 }
 
 a {
-    color: #33246C;
+    color: #000000;
     font-family: "Inclusive Sans", sans-serif;
     font-size: 18px;
     font-weight: 500;
 }
 
-a:visited {
+.inTextLink {
     color: #33246C;
 }
 
-a:hover {
+.inTextLink:visited {
+    color: #33246C;
+}
+
+.inTextLink:hover {
     color: #33246C;
     opacity: 0.8;
 }
