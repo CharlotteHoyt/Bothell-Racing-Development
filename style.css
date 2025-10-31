@@ -224,6 +224,11 @@ img {
     .overlay h1 {
         font-size: 60px;
     }   
+
+    .overlay p {
+        font-size: 1.15em;
+    }
+
     .overlay {
         width: 90%;
     }
