@@ -219,6 +219,8 @@ img {
 .supportSection {
     background-color: #33246C;
     margin: 20px 0px;
+    padding: 10px;
+    padding-bottom: 40px;
 }
 
 .supportSection p {
