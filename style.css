@@ -244,7 +244,6 @@ img {
     background-color: #33246C;
     margin: 20px 0px;
     padding: 10px;
-    padding-bottom: 50px;
 }
 
 .supportSection p {
@@ -265,9 +264,18 @@ img {
 }
 
 @media screen and (max-width: 1000px) {
+    .supportSection {
+        margin: 20px 0px;
+        padding: 20px 0px;
+    }
+
     .supportText {
         width: 80%;
-        padding: 50px;
+        margin: 20px;
+
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
     }
 }
 
