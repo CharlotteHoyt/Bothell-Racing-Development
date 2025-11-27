@@ -1,3 +1,4 @@
+/*Disable Horizontal Scrolling*/
 html {
     overflow-x: hidden;
 }
@@ -12,11 +13,13 @@ body {
     margin: 0;
 }
 
+/*Header Text*/
 h1 {
     color: #33246C;
     font-family: "Contrail One", sans-serif;
 }
 
+/*Paragraph Text*/
 p {
     color: #555555;
     font-family: "Inclusive Sans", sans-serif;
@@ -24,6 +27,7 @@ p {
     font-size: 1.15em;
 }
 
+/*Links*/
 a {
     color: #000000;
     font-family: "Inclusive Sans", sans-serif;
@@ -44,10 +48,14 @@ a {
     opacity: 0.8;
 }
 
+/*Turn Off Image Dragging*/
 img {
-    -webkit-user-drag: none;
+    -webkit-user-drag: none; /*Chrome and Safari*/
+    -moz-user-drag: none;    /*Firefox*/
+    -ms-user-drag: none;     /*Internet Explorer/Edge*/
 }
 
+/*Text Selection*/
 ::selection {
   background-color: #D0B687;
   color: #FFFFFF;
@@ -58,6 +66,7 @@ img {
   color: #FFFFFF;
 }
 
+/*Nav Bar*/
 .navBarContainer {
     position: fixed;
     overflow: hidden;
@@ -72,6 +81,7 @@ img {
     background-color: #FFFFFF;
 }
 
+/*Nav Bar Link Section*/
 .navBarLinks {
     width: 100%;
     height: 100%;
@@ -79,6 +89,7 @@ img {
     align-items: center;
 }
 
+/*Nav Bar Page Buttons*/
 .navBarLinks a {
     float: right;
     justify-content: center;
@@ -96,6 +107,7 @@ img {
     background-color: #D7C097;
 }
 
+/*Nav Bar BRD Logo*/
 .navBarContainer img {
     background-color: #FFFFFF;
     height: 75px;
@@ -111,6 +123,7 @@ img {
     height: 100%;
 }
 
+/*Page Content*/
 .content {
     margin-top: 70px;
     height: 100%;
@@ -120,6 +133,7 @@ img {
     display: block;
 }
 
+/*Max Width Container to Constrain Content From Stretching on Widescreen Devices*/
 .maxWidth {
     max-width: 1500px;
     margin-right: auto;
@@ -135,10 +149,7 @@ img {
     margin: 0;
 }
 
-.section {
-    margin: 50px 00px;
-}
-
+/*Footer*/
 .footer {
     background-color: #33246C;
     color: #FFFFFF;
@@ -149,6 +160,7 @@ img {
     bottom: 0;
 }
 
+/*Footer Copyright Text*/
 .footer p {
     color: #FFFFFF;
     font-family: "Inclusive Sans", sans-serif;
@@ -159,6 +171,7 @@ img {
     text-align: center;
 }
 
+/*Footer Social Media Logos/Links*/
 .footer i {
     font-size: 30px; 
     color: #FFFFFF;
@@ -170,14 +183,17 @@ img {
     color: #D0B687;
 }
 
+/*Show One-Line Copyright On Laptops*/
 .copyright {
     display: block;
 }
 
+/*Hide Three-Line Copyright on Mobile*/
 .copyrightMobile {
     display: none;
 }
 
+/*Show Three-Line Copyright on Mobile*/
 @media screen and (max-width: 700px) {
     .copyright {
         display: none;
@@ -190,6 +206,7 @@ img {
     }
 }
 
+/*Home Page Header*/
 .header {
     position: relative;
     text-align: center;
@@ -199,6 +216,7 @@ img {
     overflow: hidden;
 }
 
+/*Home Page Header Background Image*/
 .header img {
     filter: grayscale(100%);
     opacity: 0.3;
@@ -208,6 +226,7 @@ img {
     object-position: center center;
 }
 
+/*Home Page Header Overlay Text*/
 .overlay {
     position: absolute;
     top: 50%;
@@ -229,6 +248,7 @@ img {
     font-size: 1.4em;
 }
 
+/*Make Home Page Header Overlay Text Smaller on Mobile*/
 @media screen and (max-width: 1000px) {
     .overlay h1 {
         font-size: 50px;
@@ -243,6 +263,7 @@ img {
     }
 }
 
+/*Home Page Support Section*/
 .supportSection {
     background-color: #33246C;
     margin: 20px 0px;
@@ -266,6 +287,7 @@ img {
     display: block;
 }
 
+/*Make Home Page Support Section Smaller on Mobile*/
 @media screen and (max-width: 1000px) {
     .supportSection {
         margin: 20px 0px;
@@ -282,6 +304,7 @@ img {
     }
 }
 
+/*Home Page Support Section Sponsor Page Button/Link*/
 .supportLink {
     color: #33246C;
     background-color: #D0B687;
@@ -298,6 +321,7 @@ img {
     background-color: #D7C097;
 }
 
+/*Center Content*/
 .centered {
     margin-right: auto;
     margin-left: auto;
@@ -309,6 +333,7 @@ img {
     margin-bottom: 40px;
 }
 
+/*Side By Side Section*/
 .sideBySide {
     max-width: 90%;
     height: auto;
@@ -319,6 +344,7 @@ img {
     margin-left: auto;
 }
 
+/*Side By Side Section Image*/
 .sideBySide img {
     height: auto;
     width: 100%;
@@ -328,10 +354,12 @@ img {
     filter: grayscale(100%);
 }
 
+/*Side By Side Section Image Color on Hover*/
 .sideBySide img:hover {
     filter: grayscale(0%);
 }
 
+/*Side By Side Section Image Tilts*/
 .rightImage {
     transform: rotate(3deg);
 }
@@ -340,6 +368,7 @@ img {
     transform: rotate(-3deg);
 }
 
+/*Side By Side Image Spacing/Alignment*/
 .sideBySideElementImage {
     width: 35%;
     padding: 15px;
@@ -349,6 +378,7 @@ img {
     margin-left: auto;
 }
 
+/*Side By Side Text Spacing/Alignment*/
 .sideBySideElementText {
     width: 65%;
     padding: 50px;
@@ -359,14 +389,17 @@ img {
     text-align: left;
 }
 
+/*Side By Side Header Text*/
 .sideBySideElementText h1 {
     color: #33246C;
 }
 
+/*Side By Side Paragraph Text*/
 .sideBySideElementText p {
     color: #555555;
 }
 
+/*Side By Side Header Underline*/
 .underline {
     background-color: #D7C097;
     width: 100%;
@@ -374,7 +407,9 @@ img {
     margin: 5px 0px 20px 0px;
 }
 
+/*Adjust Side By Side Section Styling for Mobile*/
 @media screen and (max-width: 1000px) {
+    /*Display Elements Stacked Rather Than Side By Side*/
     .sideBySide {
         display: flex;
         flex-wrap: wrap;
@@ -396,6 +431,7 @@ img {
         margin-left: auto;
     }
 
+    /*Un-tilt Images*/
     .rightImage, .leftImage {
         transform: rotate(0deg);
     }
@@ -405,6 +441,7 @@ img {
     }
 }
 
+/*Sponsor Form Header*/
 .embedHeader {
     text-align: center;
     color: #33246C;
@@ -413,12 +450,14 @@ img {
     display: block;
 }
 
+/*Embeds*/
 .embedSection {
     margin-right: auto;
     margin-left: auto;
     display: block;
 }
 
+/*Sponsor Form Embed*/
 .sponsorForm {
     margin-right: auto;
     margin-left: auto;
@@ -427,6 +466,7 @@ img {
     margin-bottom: 40px;
 }
 
+/*Adjust Sponsor Form Styling for Mobile*/
 @media screen and (max-width: 1000px) {
     .embedHeader {
         width: 90%;
@@ -438,6 +478,7 @@ img {
     }
 }
 
+/*Sponsor Page Header Text*/
 .supportHeader {
     margin-top: 50px;
     padding: 50px;
@@ -446,6 +487,7 @@ img {
     display: block;
 }
 
+/*Home Page Image Gallery*/
 .galleryContainer {
     display: flex;
     justify-content: center;
@@ -458,6 +500,7 @@ img {
     display: block;
 }
 
+/*Home Page Image Gallery Images*/
 .galleryImage {
     margin: 10px;
     width: 175px;
@@ -467,11 +510,13 @@ img {
     filter: grayscale(100%);
 }
 
+/*Home Page Image Gallery Color on Hover Effect*/
 .galleryImage:hover {
     filter: grayscale(0%);
 }
 
-@media screen and (max-width: 450px) {
+/*Adjust Home Page Image Gallery Image Sizing for Mobile*/
+@media screen and (max-width: 700px) {
     .galleryImage {
         margin: 10px;
         width: 100px;
