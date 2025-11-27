@@ -1,6 +1,8 @@
 # Bothell-Racing-Development
 A website for UW Bothell's Formula SAE team. Made by [Abby Hoyt](https://github.com/AbbyHoyt) and [Charlotte Hoyt](https://github.com/CharlotteHoyt). 
 
+<br>
+
 Below are some instructions for anyone who may need to update/maintain the website in the future!
 
 <br>
