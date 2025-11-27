@@ -25,10 +25,12 @@ Below are some instructions for anyone who may need to update/maintain the websi
 
 <br>
 
-**Updating Social Media Links or the Sponsorship Form:**
+**Updating Social Media Links:**
 * Social media links are in the `footer` div (`<div class="footer"></div>`).
 * Find the link to update and change the `href` attribute (this is the link). You will need to make this change in both the `index.html` file and the `sponsors.html` file.
+
+<br>
+
+**Updating the Sponsorship Form:**
 * To update the embedded sponsorship form, go to the `sponsors.html` file. Find the `embedSection` div (`<div class="embedSection"></div>`).
-* In this div, there is an `iframe` with the class attribute called `sponsorForm`. Update the `src` attribute (this is the link to the form to embed). 
-
-
+* In this div, there is an `iframe` with the class attribute called `sponsorForm`. Update the `src` attribute (this is the link to the form to embed).
