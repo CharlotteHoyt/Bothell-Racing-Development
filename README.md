@@ -20,7 +20,7 @@ Below are some instructions for anyone who may need to update/maintain the websi
 * Add the photo to the `assets` folder. Give it a descriptive name. To name the photos, we have been using PascalCase (capital letters to delineate words), but anything should work. 
 * In the `index.html` file, find the `galleryContainer` div (`<div class="galleryContainer"></div>`).
 * Copy and paste one of the `img` tag lines. (For example, `<img class="galleryImage" src="assets/ImageName.jpeg" alt="Descriptive alternative text of the image.">`.)
-* Change the `src` attribute to the name of the new image path. (Just change `ImageName`, you will still need `assets/` to show that the photo is in the `assets` folder.)
+* Change the `src` attribute to the name of the new image path. (Just change `ImageName` and the file type '.jpeg'/'.png'/etc. as needed. You will still need `assets/` to show that the photo is in the `assets` folder.)
 * Write `alt` text for the image. This specifies a descriptive text alternative for the image. This is an important fallback if the image fails to display. It is also necessary to keep the website accessible for those with visual impairments who may be using a screen reader. What you need to do here is write a brief description of the image (provide a text-based equivalent of the information). 
 
 <br>
