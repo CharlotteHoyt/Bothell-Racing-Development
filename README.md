@@ -1,6 +1,8 @@
 # Bothell-Racing-Development
 A website for UW Bothell's Formula SAE team. Made by [Abby Hoyt](https://github.com/AbbyHoyt) and [Charlotte Hoyt](https://github.com/CharlotteHoyt).
 
+<br>
+
 **Updating Text Content:**
 * Go to the `index.html` file. 
 * Find the text to update. Just update it (haha). Make sure the text is between opening (`<p>`) and closing (`</p>`) tags. Write between the tags (for example, `<p>Cool stuff here!</p>`, where "Cool stuff here!" is the text that will actually show up.).
