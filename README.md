@@ -8,7 +8,7 @@ Below are some instructions for anyone who may need to update/maintain the websi
 <br>
 
 **Updating Text Content:**
-* Go to the `index.html` file. 
+* Go to the `index.html` file (for home page updates) or `sponsors.html` (for sponsorship page updates). 
 * Find the text to update. Just update it (haha). Make sure the text is between opening (`<p>`) and closing (`</p>`) tags. Write between the tags (for example, `<p>Cool stuff here!</p>`, where "Cool stuff here!" is the text that will actually show up.).
 * For body text, the `<p>` tag defines paragraph text. For subheaders, we have used the `<h1>` tag.
 * The `<br>` tag creates a line break. 
